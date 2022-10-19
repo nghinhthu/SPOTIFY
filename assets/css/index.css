@@ -227,6 +227,29 @@ html * {
     -ms-transition: 0.5s ease;
     -o-transition: 0.5s ease;
 }
+#root__top__user__login {
+    border-radius: 23px;
+    height: 28px;
+    
+    background-color:#ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 32px;
+    cursor: pointer;
+}
+#root__top__user__name__login {
+    color: black;
+    line-height: 28px;
+    font-weight: 700;
+}
+#root__top__user__name__login a {
+   text-decoration: none;
+}
+#root__top__user__name__login a:hover {
+    color: darkblue;
+ }
 
 #root__top__user {
     border-radius: 23px;
@@ -269,6 +292,7 @@ html * {
     border-radius: 2px;
     box-shadow: 0px 0px 10px black; 
 }
+
 
 .drop-bar-item {
     padding: 12px;
